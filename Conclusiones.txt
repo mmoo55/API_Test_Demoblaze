@@ -1,0 +1,15 @@
+Conclusiones:
+    - Los Scenarios Tests probados fueron:
+        Seccion Login
+        1. "Crear un nuevo usuario en signup", en el cual los pasos fueron realizados correctamente,
+            obteniendo una respuesta de estado 200, con un tiempo de respuesta de 1176 ms.
+        2. "Intentar crear un usuario ya existente", los pasos fueron ejecutados correctamente,
+            obteniendo una respuesta 200, además de un mensaje de error con el texto "This user already exist.".
+            El tiempo de respuesta fue 476 ms.
+
+        Seccion Signup
+        1. "Usuario y password correcto en login", ejecutó correctamente los pasos, obteniendo una respuesta
+            de estado 200, además del token de autenticación "Auth_token". El tiempo de respuesta fue de 490 ms.
+        2. "Usuario y password incorrecto en login", cada paso fue realizado correctamente, obteniendo la respuesta
+            de estado 200. También se obtuvo el mensaje "User does not exist.", confirmando la no existencia del
+            usuario y password. El tiempo de respuesta fue 461 ms.

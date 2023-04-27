@@ -1,0 +1,1066 @@
+23:40:04.258 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:40:04.904 [main] DEBUG com.intuit.karate - response time in milliseconds: 638
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 5c9861658ff76fb7a16201a2b4a55606
+1 < Date: Thu, 27 Apr 2023 03:40:06 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:40:04.928 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:40:05.394 [main] DEBUG com.intuit.karate - response time in milliseconds: 466
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f8dc7da955bfe4cae58eec180a5ed712
+1 < Date: Thu, 27 Apr 2023 03:40:06 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:40:06.189 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:40:06.725 [main] DEBUG com.intuit.karate - response time in milliseconds: 534
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: c333fc6aa5ab7b23ae0ee5b12972adce
+1 < Date: Thu, 27 Apr 2023 03:40:08 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY2"
+
+
+23:40:06.738 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+23:40:07.206 [main] DEBUG com.intuit.karate - response time in milliseconds: 467
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 5dab698ed1965ac75bce73eb772c1ae4
+1 < Date: Thu, 27 Apr 2023 03:40:08 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+23:43:25.435 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:43:26.187 [main] DEBUG com.intuit.karate - response time in milliseconds: 726
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: e42719f97d70a97bfeeb26f4e84ecc75;o=1
+1 < Date: Thu, 27 Apr 2023 03:43:27 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:43:26.210 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:43:26.664 [main] DEBUG com.intuit.karate - response time in milliseconds: 454
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: e2c649225545c96e24bdfdec9a182c55
+1 < Date: Thu, 27 Apr 2023 03:43:27 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:43:27.493 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:43:28.043 [main] DEBUG com.intuit.karate - response time in milliseconds: 548
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 9eb1c5d0ee2c9a0a27d351a6df05bd85
+1 < Date: Thu, 27 Apr 2023 03:43:29 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY3"
+
+
+23:43:28.058 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+23:43:28.515 [main] DEBUG com.intuit.karate - response time in milliseconds: 456
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 821b71d47aa7ef582d80a0b239b1b2f7
+1 < Date: Thu, 27 Apr 2023 03:43:29 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+23:43:40.955 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:43:41.592 [main] DEBUG com.intuit.karate - response time in milliseconds: 630
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 1f75bfdda7feca1fccf3de2b775c2e68
+1 < Date: Thu, 27 Apr 2023 03:43:42 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:43:41.615 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:43:42.063 [main] DEBUG com.intuit.karate - response time in milliseconds: 447
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 73cbde9f99d3631a7e92603283d9781f
+1 < Date: Thu, 27 Apr 2023 03:43:43 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:43:42.849 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:43:43.332 [main] DEBUG com.intuit.karate - response time in milliseconds: 482
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: befcbe4c65b6e67086c2c4a0465a3711
+1 < Date: Thu, 27 Apr 2023 03:43:44 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY3"
+
+
+23:43:43.346 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+23:43:43.792 [main] DEBUG com.intuit.karate - response time in milliseconds: 446
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 557f7ef0e49a6510136174950080596a
+1 < Date: Thu, 27 Apr 2023 03:43:45 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+23:47:47.629 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:47:48.351 [main] DEBUG com.intuit.karate - response time in milliseconds: 715
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8819e013feb30c83ccef7df0deffe1d0;o=1
+1 < Date: Thu, 27 Apr 2023 03:47:49 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:47:48.377 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:47:48.856 [main] DEBUG com.intuit.karate - response time in milliseconds: 478
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: c28fdd57123068b556375331574bf6d4
+1 < Date: Thu, 27 Apr 2023 03:47:50 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+23:47:49.692 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+23:47:50.803 [main] DEBUG com.intuit.karate - response time in milliseconds: 1110
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: ff4774f952121fbb9f88264829aed2e8
+1 < Date: Thu, 27 Apr 2023 03:47:52 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY3"
+
+
+23:47:50.818 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+23:47:51.292 [main] DEBUG com.intuit.karate - response time in milliseconds: 473
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8479138528179efc3ae489e963b58571
+1 < Date: Thu, 27 Apr 2023 03:47:52 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+00:00:02.552 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:00:03.520 [main] DEBUG com.intuit.karate - response time in milliseconds: 957
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 7222e2a909405dd02033d613dd95b574;o=1
+1 < Date: Thu, 27 Apr 2023 04:00:04 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:00:03.546 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:00:04.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 472
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 31b7b8a212d359b6cbaa79a15c6a065c
+1 < Date: Thu, 27 Apr 2023 04:00:05 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:00:04.864 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:00:05.368 [main] DEBUG com.intuit.karate - response time in milliseconds: 503
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 28cb8ff9959e21d6faa6df04937929f7
+1 < Date: Thu, 27 Apr 2023 04:00:06 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY4"
+
+
+00:00:05.384 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+00:00:05.845 [main] DEBUG com.intuit.karate - response time in milliseconds: 460
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 9cad1835b14b51cad01ce3de0b5b2d6c
+1 < Date: Thu, 27 Apr 2023 04:00:07 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+00:01:48.869 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:01:49.526 [main] DEBUG com.intuit.karate - response time in milliseconds: 649
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 0d75e3569a853665181fbc0438dd5e38;o=1
+1 < Date: Thu, 27 Apr 2023 04:01:50 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:01:49.549 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:01:50.009 [main] DEBUG com.intuit.karate - response time in milliseconds: 460
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 54f78b9f4dd7d24ceb29fc0e97cbcde9
+1 < Date: Thu, 27 Apr 2023 04:01:51 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:01:50.849 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:01:51.347 [main] DEBUG com.intuit.karate - response time in milliseconds: 496
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 13fbe1c0bee7a7493b9b37a2d4a634f7
+1 < Date: Thu, 27 Apr 2023 04:01:52 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY4"
+
+
+00:01:51.360 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":null,"password":null}
+
+00:01:51.781 [main] DEBUG com.intuit.karate - response time in milliseconds: 421
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 9bcc7caecc3e5b3dc620b89658523e15
+1 < Date: Thu, 27 Apr 2023 04:01:53 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+00:01:51.789 [main] ERROR com.intuit.karate - classpath:Features/login.feature:35
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 421, url: https://api.demoblaze.com/login, response: 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+classpath:Features/login.feature:35
+00:02:36.413 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:02:37.070 [main] DEBUG com.intuit.karate - response time in milliseconds: 650
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: d29f6ef736bb25265400419c5ce935d6
+1 < Date: Thu, 27 Apr 2023 04:02:38 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:02:37.096 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:02:37.565 [main] DEBUG com.intuit.karate - response time in milliseconds: 469
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 06e43b106753b9ac0f3db681f0e3793d
+1 < Date: Thu, 27 Apr 2023 04:02:38 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:02:38.407 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:02:38.933 [main] DEBUG com.intuit.karate - response time in milliseconds: 525
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f42276f30b3437ad1fc69b7966c11cb2
+1 < Date: Thu, 27 Apr 2023 04:02:40 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY4"
+
+
+00:02:38.947 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+00:02:39.399 [main] DEBUG com.intuit.karate - response time in milliseconds: 452
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 2baf6c83ac35b2b797f44d365fbc4149
+1 < Date: Thu, 27 Apr 2023 04:02:40 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+00:04:04.610 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:04:05.278 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: ddaf84a117baf53c5a327de9a7d497ed
+1 < Date: Thu, 27 Apr 2023 04:04:06 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:04:05.303 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:04:05.846 [main] DEBUG com.intuit.karate - response time in milliseconds: 542
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: c0a9ccbdbd790c316afa088d534ebebf
+1 < Date: Thu, 27 Apr 2023 04:04:07 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:04:06.649 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:04:07.165 [main] DEBUG com.intuit.karate - response time in milliseconds: 515
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: ed7aff337a89661b45784d6e61ecf82b
+1 < Date: Thu, 27 Apr 2023 04:04:08 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY4"
+
+
+00:04:07.181 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+00:04:07.631 [main] DEBUG com.intuit.karate - response time in milliseconds: 449
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 251a12636915df069ac8406acd1415c3
+1 < Date: Thu, 27 Apr 2023 04:04:08 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+00:07:24.688 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:07:25.429 [main] DEBUG com.intuit.karate - response time in milliseconds: 733
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: cd0bc9e27215cc6b03a1c97a1dcd1702
+1 < Date: Thu, 27 Apr 2023 04:07:26 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:07:25.469 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:07:25.914 [main] DEBUG com.intuit.karate - response time in milliseconds: 445
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 9a3e87249652a07dc5d195954186bba6
+1 < Date: Thu, 27 Apr 2023 04:07:27 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:07:26.789 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:07:27.292 [main] DEBUG com.intuit.karate - response time in milliseconds: 502
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 4c53b1ca38dc0c06df79bd5f413bb385
+1 < Date: Thu, 27 Apr 2023 04:07:28 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY4"
+
+
+00:07:27.307 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+00:07:27.771 [main] DEBUG com.intuit.karate - response time in milliseconds: 462
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: a197e0c738f3ca56e29cb65c019e2ca9
+1 < Date: Thu, 27 Apr 2023 04:07:29 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+00:24:45.852 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:24:46.684 [main] DEBUG com.intuit.karate - response time in milliseconds: 798
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: d2ef9cea031766d2ac4d5c68e38e7d5b
+1 < Date: Thu, 27 Apr 2023 04:24:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:24:46.708 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:24:47.156 [main] DEBUG com.intuit.karate - response time in milliseconds: 447
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 23822928e9bb186c657a2d379e5dd7c1
+1 < Date: Thu, 27 Apr 2023 04:24:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:24:48.513 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:24:48.996 [main] DEBUG com.intuit.karate - response time in milliseconds: 481
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8e5da28161fe0cbc461f51086f5880f8
+1 < Date: Thu, 27 Apr 2023 04:24:50 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY5"
+
+
+00:24:49.010 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+00:24:49.457 [main] DEBUG com.intuit.karate - response time in milliseconds: 446
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: b7854a88854218e53c1c68556f8cc496
+1 < Date: Thu, 27 Apr 2023 04:24:50 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+00:25:30.636 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:25:31.283 [main] DEBUG com.intuit.karate - response time in milliseconds: 639
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: a4bc1b7d63803029f4ef2a0dc02cc044
+1 < Date: Thu, 27 Apr 2023 04:25:32 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:25:31.304 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:25:31.769 [main] DEBUG com.intuit.karate - response time in milliseconds: 464
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 3d46b3af1de7d9aa22d44185bcc390de
+1 < Date: Thu, 27 Apr 2023 04:25:33 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:25:32.651 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:25:33.198 [main] DEBUG com.intuit.karate - response time in milliseconds: 546
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f79338c444021337346ae1cf751deafe
+1 < Date: Thu, 27 Apr 2023 04:25:34 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY5"
+
+
+00:25:33.213 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+00:25:33.659 [main] DEBUG com.intuit.karate - response time in milliseconds: 445
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 59583649bef56189231d06915f658ac9
+1 < Date: Thu, 27 Apr 2023 04:25:35 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+00:26:34.983 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:26:35.653 [main] DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 04528ddfd49f747aa15fae31cae28ce4
+1 < Date: Thu, 27 Apr 2023 04:26:36 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:26:35.677 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:26:36.127 [main] DEBUG com.intuit.karate - response time in milliseconds: 449
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 1bbf40b1cece490f0e499d374c9bb34a
+1 < Date: Thu, 27 Apr 2023 04:26:37 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+00:26:36.992 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"pruebaNuevoUsuarioDevsu","password":"123Prueba"}
+
+00:26:37.474 [main] DEBUG com.intuit.karate - response time in milliseconds: 480
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: a43dafc5755dfae7ed843b95fa241fd5
+1 < Date: Thu, 27 Apr 2023 04:26:38 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: cHJ1ZWJhTnVldm9Vc3VhcmlvRGV2c3UxNjgzMTY5"
+
+
+00:26:37.489 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"13pruebaNuevoUsuarioDevsuError","password":"123Prueba12345"}
+
+00:26:37.943 [main] DEBUG com.intuit.karate - response time in milliseconds: 453
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8d0b64b6a0f0ceaabdd07debe0c4d76f
+1 < Date: Thu, 27 Apr 2023 04:26:39 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
