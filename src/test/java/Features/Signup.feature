@@ -15,7 +15,7 @@ Feature: Test Signup section
     And method POST
     Then status 200
 
-  Scenario: I want to try to create an user that already exist
+  Scenario: I want to try to create a user that already exist
     Given url urlBase
     When request
     """
