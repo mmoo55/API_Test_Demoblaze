@@ -1,7 +1,7 @@
 Feature: Test Login section
   Background:
     * def urlBase = 'https://api.demoblaze.com/login'
-    * def user = {username: 'pruebaNuevoUsuarioDevsu', password: '123Prueba'}
+    * def user = {username: 'pruebaNuevoUsuarioDevsu1', password: '123Prueba'}
 
     * def userError = {username: '13pruebaNuevoUsuarioDevsuError', password: '123Prueba12345'}
 
